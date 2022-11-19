@@ -1,0 +1,168 @@
+*{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+header {
+    position: absolute;
+}
+
+nav {
+    
+    border-bottom: 1px solid #e4e4e4;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0!important;
+}
+
+li {
+    padding: 0!important;
+}
+
+.bg-b-theme {
+    background-color: #106fd4;
+}
+
+.ml-5 {
+    margin-left: 5rem;
+}
+
+.pr-1 {
+    padding-right: 1rem;
+}
+
+.nav-title {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 2px;
+}
+
+.nav-link {
+    padding: 0!important;
+    font-size: 17px;
+}
+
+.nav-link:hover {
+    color: #00BCDB;
+}
+.nav-link:focus {
+    color: #F9F871;
+}
+
+.w-40 {
+    width: 20%;
+}
+
+.w-60 {
+    width: 80%;
+}
+.w-100 {
+    width: 100%;
+}
+
+.logo {
+    width: 4rem;
+    height: 4.5rem;
+    padding: 5px 0;
+    margin: 0px;
+    margin: 0 10px;
+}
+
+#logo-title {
+    margin: 0;
+    padding-left: 4rem;
+    align-items: center;
+}
+
+.bg-dark-3 {
+    background-color: #333333;
+}
+
+#navbarSupportedContent {
+    margin-right: 10px;
+}
+
+.scroll-down {
+    visibility: visible;
+}
+
+.border-doubled {
+    border: double;
+    border-width: 0.5rem;
+    border-radius: 10px;
+}
+
+.double {
+    padding: 3px;
+    margin-left: 2px;
+    border-radius: 10px;
+    border: 1px solid #d4d4d4;
+}
+
+.vector {
+    width: 4rem;
+    height: 4rem;
+}
+
+/* Scroll */
+.scroll-down header {
+    transform: translate3d(0, -100%, 0);
+}
+
+@media only screen and (min-width: 990px){
+
+}
+
+
+
+/* 
+@media only screen and (max-width:600px){
+    header{
+        display: block;
+    }
+    .logo{
+        margin-left: 15px;
+    }
+    .nav-toggle{
+        display: block;
+        position: absolute;
+        cursor: pointer;
+        margin:0 1rem;
+        top:25px;
+        right:0;
+    }
+    .nav-toggle img{
+    width: 25px;    
+    }
+    .close,input[type='checkbox']{
+    display: none;
+    }
+    #nav-checkbox:Checked ~ .nav-menu{
+        background:linear-gradient(rgba(255, 255, 255, 0.3),rgba(255,255,255, 0.3));
+        margin-top: 10px;
+        padding: 10px 0;
+        border-top:1px solid linear-gradient(rgba(255, 255, 255, 0.3),rgba(255,255,255, 0.3));
+    }
+    .nav-menu li{
+        display: none;
+        margin:10px 0
+    }
+    #nav-checkbox:checked ~ ul.nav-menu li{
+        display: block;
+    }
+    #nav-checkbox:checked ~ label.nav-toggle.open{
+        display: none;
+    }
+    #nav-checkbox:checked ~ label.nav-toggle.close{
+        display: block;
+    }
+} */

@@ -1,0 +1,327 @@
+/*general*/
+.home{
+    font-family: 'Barlow', sans-serif;
+    background:#EFEFEF;
+}
+.text{
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+.pt{
+    padding-top: 50px;
+}
+.pl{
+    padding-left: 70px;
+    padding-right: 40px;
+}
+.pr{
+    padding-left: 40px;
+    padding-right: 70px;
+}
+.justify{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+/*----------------------------------*/
+
+/*banner*/
+.banner{
+    margin-top: 74px;
+    background: linear-gradient(rgba(255, 255, 255, 0.2),rgba(0, 0, 0, 0.5)),url("src/assets/img/home/mit_background.JPG") no-repeat bottom / cover;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+.hero{
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white;
+    padding: 50px;
+    border: 1px solid white;
+    border-radius: 2rem;
+}
+.hero-header{
+    font-size: 70px;
+    font-weight: 800;
+}
+.hero-quote{
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: 200;
+}
+.click{
+    margin-top: 40px;
+    background-color: rgb(56 182 255);
+    padding:2px 10px ;
+    border: 0;
+    border-radius: 15px;
+}
+.click a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+}
+/*--------------------------------------*/
+
+/* 2 Programs*/
+.header-1{
+    padding-bottom: 20px;
+    color: rgb(56 182 255);
+    font-size: 40px;
+    font-weight: 700;
+}
+.header-2{
+    color: rgb(56 182 255);
+    font-size: 30px;
+    font-weight: 700;
+}
+.f-size{
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+}
+#read{
+    padding: 2px 10px;
+    border: 0;
+    border-radius: 25px;
+    background-color: rgb(56 182 255);
+}
+#read a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+/*------------------------------------*/
+
+/* 3 card*/
+.banner-card{
+    background: white;
+    padding: 0;
+    width: 20%;
+    margin-bottom: 40px;
+    align-items: center;
+    text-align: center;
+}
+.card-p{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.card-photo{
+    object-fit: cover;
+    width: 310px;
+    height: 200px;
+}
+#card-photo-2{
+    object-position: 60% 60%;
+}
+.header_3{
+    padding: 10px;
+    color: rgb(56 182 255);
+    font-size: 20px;
+    font-weight: 700;
+}
+.content-text{
+    padding: 20px;
+}
+.card-text{
+    padding: 0 20px;
+    text-align: center;
+}
+/*------------------------------------*/
+
+/*About MIT*/
+#banner_2{
+    max-height: 90vh;
+    object-fit: cover;
+}
+.header_4{
+    padding: 10px;
+    color: rgb(56 182 255);
+    font-size: 40px;
+    font-weight: 700;
+}
+.banner_2-text{
+    padding: 0 20px;
+    font-size: 21px;
+    font-weight: 400;
+}
+/*--------------------------------------*/
+
+/*News*/
+.header_5{
+    color: rgb(56 182 255);
+    font-size: 40px;
+    font-weight: 700;
+}
+.news-text{
+    font-size: 21px;
+    font-weight: 400;
+}
+.banner-card_2{
+    background: rgb(56 182 255);
+    padding: 0;
+    width: 23%;
+    height: 30%;
+    border: 0;
+    border-radius: 10px;
+}
+.banner-header{
+    padding: 15px 0;
+}
+.content-text_2{
+    padding: 10px;
+}
+.header_6{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.news-photo{
+    
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+/*---------------------------------------*/
+.footer{
+    margin-top: 100px;
+    background: url("src/assets/img/home/42.png") no-repeat bottom / cover;
+    min-height: 100vh;
+}
+
+@media only screen and (min-width:601px) and (max-width:1300px){
+    .hero{
+        margin: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        color:white;
+        padding: 15px 40px;
+        border: 1px solid white;
+        border-radius: 1rem;
+    }
+    .hero h2{
+        margin-top: 0;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .quote{
+        margin-top: 10px;
+        font-size: 10px;
+        font-weight: 200;
+    }
+    .header_1{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .header_2{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .f_size{
+        font-weight: 300;
+        font-size: 15px;
+        padding: 0 50px;
+    }
+    .align{
+        width: 100%;
+    }
+    .banner-card{
+        width: 30%;
+    }
+    .banner-card_2{
+        width: 30%;
+    }
+}
+@media only screen and (min-width:401px) and (max-width:600px){
+    .hero{
+        margin: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        color:white;
+        padding: 15px 40px;
+        border: 1px solid white;
+        border-radius: 1rem;
+    }
+    .hero h2{
+        margin-top: 0;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .quote{
+        margin-top: 10px;
+        font-size: 10px;
+        font-weight: 200;
+    }
+    .header_1{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .header_2{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .f_size{
+        font-weight: 300;
+        font-size: 15px;
+        padding: 0 50px;
+    }
+    .align{
+        width: 100%;
+    }
+    .banner-card{
+        width: 80%;
+    }
+    .banner-card_2{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .hero{
+        margin: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        color:white;
+        padding: 15px 30px;
+        border: 1px solid white;
+        border-radius: 1rem;
+    }
+    .hero h2{
+        margin-top: 0;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .quote{
+        font-size: 10px;
+        font-weight: 200;
+    }
+    .header_1{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .he
+    .header_2{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .f_size{
+        font-weight: 300;
+        font-size: 15px;
+        padding: 0 50px;
+    }
+    .align{
+        width: 100%;
+    }
+    .banner-card{
+        width: 80%;
+    }
+    .banner-card_2{
+        width: 80%;
+    }
+}

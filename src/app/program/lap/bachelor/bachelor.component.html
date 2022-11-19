@@ -1,0 +1,57 @@
+<section id="showcase" class="d-flex align-items-end">
+    <div id="textbox" class="container text-white text-center">
+        <h2 id="headTitle" class="mb-0">Bachelor of Art and Science</h2>
+    </div>
+</section>
+<hr class="p-0 m-0">
+<section>
+    <div class="container-xl py-2">
+        <div class="container w-100 py-5">
+            <h1 class="text-center fw-7 text-theme">Six Majors in Bachelor of Art and Science<br>(LAP)</h1>
+        </div>
+        <div class="d-flex container-fluid pb-5 justify-content-around align-items-center">
+            <div class="col-md-3">
+                <img class="rounded-circle object-fit-cover border-theme border-3" width="250" height="250" src="../../../../assets/img/bachelor/13.png" alt="">
+            </div>
+            <div class="col-md-3">
+                <img class="rounded-circle object-fit-cover border-theme border-3" width="250" height="250" src="../../../../assets/img/bachelor/13.png" alt="">
+            </div>
+            <div class="col-md-3">
+                <img class="rounded-circle object-fit-cover border-theme border-3" width="250" height="250" src="../../../../assets/img/bachelor/13.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<hr class="p-0 m-0">
+<section>
+    <div>
+        <div class="container-xl my-2 p-0 bg-theme d-flex justify-content-around">
+            <button class="text-white p-4 fw-7 bg-theme" id="sub-nav-link" (click)="assignComponent('business')">Business</button>
+            <button class="text-white p-4 fw-7 bg-theme" id="sub-nav-link" (click)="assignComponent('computerStudies')">Computer Studies</button>
+            <button class="text-white p-4 fw-7 bg-theme" id="sub-nav-link" (click)="assignComponent('english')">English</button>
+            <button class="text-white p-4 fw-7 bg-theme" id="sub-nav-link" (click)="assignComponent('music')">Music</button>
+            <button class="text-white p-4 fw-7 bg-theme" id="sub-nav-link" (click)="assignComponent('religion')">Religion</button>
+            <button class="text-white p-4 fw-7 bg-theme" id="sub-nav-link" (click)="assignComponent('socialStudies')">Social Studies</button>
+        </div>
+        <div class="container-xl py-2 p-0">
+            <ng-container *ngComponentOutlet="majorComponent"></ng-container>
+        </div>
+    </div>
+</section>
+<hr class="p-0 m-0">
+<section class="bg-theme">
+    <div class="container-xl py-2">
+        <div class="d-flex container-fluid py-5 justify-content-around align-items-center">
+            <div class="col-md-5">
+                <div id="applyImageBox"><img id="whyapplyImage" width="650" height="350" src="../../assets/img/how-to-apply/whyYouShouldApply.png" alt=""></div>
+            </div>
+            <div class="col-md-5 pe-5">
+                <h1 class="mb-0 text-header text-white">Why You Should Apply to MIT</h1>
+                <p class="mb-0 mt-3 text-align-justify f-25 font-bc">
+                    The objectives of Myanmar Institute of Theology include  producing competent and faithful young leaders and scholars at national and international levels. Moreover,  it has so much networking with universities, colleges and other academic institutions within and outside Myanmar. Those who love adventures, challenges and so on, will easily be fit into the atmosphere of the School.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<hr class="p-0 m-0">

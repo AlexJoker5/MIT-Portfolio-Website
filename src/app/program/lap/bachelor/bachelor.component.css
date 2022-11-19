@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap');
+
+body{
+    background-color: #efefef;
+    font-family: 'Barlow';
+}
+
+button {
+    font-family: 'Barlow Condensed';
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.f-15 {
+    font-size: 15px;
+}
+
+.f-17 {
+    font-size: 17px;
+}
+
+.f-19 {
+    font-size: 19px;
+}
+
+.f-20 {
+    font-size: 20px;
+}
+
+.f-25 {
+    font-size: 25px;
+}
+
+.fw-7 {
+    font-weight: 700;
+}
+
+.fw-8 {
+    font-weight: 800;
+}
+
+.text-theme{
+    color: #38b6ff;
+}
+
+.ml-4 {
+    margin-left: 2.4rem;
+}
+
+.ml-5 {
+    margin-left: 3.7rem;
+}
+
+.section-box {
+    width: 100%;
+    height: 110vh;
+}
+
+.text-header {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.mt-3 {
+    margin-top: 4rem;
+}
+
+.text-align-justify {
+    text-align: justify;
+}
+
+.theme-border {
+    width: 100%;
+    border: 3px solid #38b6ff;
+}
+
+.border-grey {
+    border: 1px solid #c2c2c2;
+}
+
+.bg-theme {
+    background-color: #38b6ff;
+}
+
+.btn-theme {
+    background-color: #38b6ff;
+    padding: 10px 60px;
+    color: #fff;
+    border: none;
+
+}
+
+#showcase {
+    width: auto;
+    height: 90vh;
+    background: url("../../../../assets/img/how-to-apply/bg.png") center -130px / 100% 140vh no-repeat;
+    margin-top: 4rem;
+}
+
+#sub-nav-link {
+    text-decoration: none;
+    font-size: 27px;
+    border: 1px solid #38b6ff;
+}
+
+#sub-nav-link:hover {
+    text-decoration: none;
+    font-size: 27px;
+    border-bottom: 1px solid #ffffff;
+}
+
+#sub-nav-link:focus {
+    text-decoration: none;
+    font-size: 27px;
+    border-bottom: 1px solid #ffffff;
+}
+
+#bottomShowCase {
+    width: auto;
+    height: 90vh;
+    background: url("../../../../assets/img/how-to-apply/botBackground.png") center -130px / 100% 140vh no-repeat;
+}
+
+#overlay {
+    background: rgba(0,0,0,0.2);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#textbox {
+    z-index: 2;
+    padding: 20px 0;
+    margin: 0;
+    max-width: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+#headTitle {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.border-theme {
+    border: 4px solid #38b6ff;
+}
+
+#applyImage {
+    width: 430px; 
+    height: 580px;
+    object-fit: cover;
+    object-position: 17% 0;
+    border-radius: 35px;
+    border: 6px solid #38b6ff;
+}
+
+#whyapplyImage {
+    width: 480px; 
+    height: 500px;
+    object-fit: cover;
+    object-position: 55% 0;
+    border-radius: 35px;
+    border: 6px solid #fff;
+}
+
+#whyapplyText {
+    font-size: 24px;
+}
+
+#circleImage {
+    width: 400px; 
+    height: 280px;
+    object-fit: cover;
+    object-position: 10% 0;
+}
+
+#entryBox {
+    height: 516px;
+}
+
+#becomeBox {
+    width: 310px;
+    height: 420px;
+}
+
+#feesImg {
+    width: 310px; 
+    height: 230px;
+    object-fit: cover;
+    object-position: 44% 0;
+}

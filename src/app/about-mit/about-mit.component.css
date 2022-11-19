@@ -1,0 +1,184 @@
+/*general*/
+.about-mit{
+    font-family: 'Barlow', sans-serif;
+    background:#EFEFEF;
+}
+.pl{
+    padding-left: 70px;
+    padding-right: 50px;
+}
+.pr{
+    padding-left: 50px;
+    padding-right: 70px;
+}
+.pt{
+    padding: 50px 0;
+}
+/*--------------------------------------*/
+
+/*banner*/
+.banner{
+    margin-top: 73px;
+    background: linear-gradient(rgba(255, 255, 255, 0.2),rgba(0, 0, 0, 0.5)),url("src/assets/img/about-mit/41.png") no-repeat bottom / cover;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+.hero{
+    width: 100%;
+    margin-top: 71vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white;
+    padding:10px 0;
+}
+.banner-content{
+    padding-top: 10px;
+    font-size: 40px;
+    font-weight: 600;
+}
+/*----------------------------------------*/
+
+/*why choose*/
+.header-1{
+    padding: 30px 0;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(56 182 255);
+ }
+.content-1{
+    font-size: 20px;
+    font-weight: 400;
+}
+#banner-1{
+    margin-top: 20px;
+    border: 0;
+    border-radius: 1rem;
+    align-items: center;
+}
+/*--------------------------------------*/
+
+/*Program Choices*/
+.gallery{
+    padding-left: 50px;
+}
+.card-1{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 1rem;
+    display: inline-block;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+}
+.card-photo-1{
+    background-image: url("src/assets/img/about-mit/38.png");
+    object-fit: cover;
+} 
+.card-photo-2{
+    background-image: url("src/assets/img/about-mit/31.png");
+    object-fit: cover;
+} 
+.card-photo-3{
+    background-image: url("src/assets/img/about-mit/25.png");
+    object-fit: cover;
+}
+.card-photo-4{
+    background-image: url("src/assets/img/about-mit/12.png");
+    object-fit: cover;
+}
+.header-2{
+    margin-top: 30px;
+    padding: 30px 0;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(56 182 255);
+    text-align: center;
+ }
+ .content-2{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.link{
+    text-align: center;
+    
+}
+#link-content{
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(56 182 255);
+}
+/*-------------------------------------*/
+
+/*Goal*/
+.bg{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:rgb(56 182 255) ;
+}
+.header-3{
+    padding: 20px 40px;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+ }
+.content-3{
+    padding: 0 40px;
+    font-size: 30px;
+    font-weight: 400;
+}
+#banner-2{
+    margin-top: 20px;
+    border: 10px solid white ;
+    border-radius: 4rem;
+    align-items: center;
+    object-fit: cover;
+}
+/*-------------------------------------*/
+ 
+/*cards*/
+.justify{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    padding: 10px 55px;
+}
+.card-3{
+    background: rgb(56 182 255);
+    padding: 0;
+    width: 30%;
+    height: 40%;
+    border-radius: 10px;
+}
+.photo{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+#card-photo-2{
+    object-position: 50% 55%;
+}
+.content-4{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 0;
+}
+#card-link{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+/*-----------------------------------*/
+.footer{
+    background: url("src/assets/img/about-mit/24.png") no-repeat bottom / cover;
+    min-height: 105vh;
+}

@@ -1,0 +1,134 @@
+/*general*/
+.student-life{
+    font-family: 'Barlow', sans-serif;
+    background:#EFEFEF;
+}
+.pl{
+    padding-left: 70px;
+    padding-right: 50px;
+}
+.pr{
+    padding-left: 50px;
+    padding-right: 70px;
+}
+.pt{
+    padding: 50px 0;
+}
+/*--------------------------------------*/
+/*banner*/
+.banner{
+    margin-top: 73px;
+    background: linear-gradient(rgba(255, 255, 255, 0.2),rgba(0, 0, 0, 0.5)),url("src/assets/img/student-life/mit_background.JPG") no-repeat bottom / cover;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+.hero{
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white;
+    padding: 50px;
+    border: 1px solid white;
+    border-radius: 2rem;
+}
+.hero-header{
+    font-size: 70px;
+    font-weight: 800;
+}
+.uni-name{
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: 200;
+}
+/*------------------------------------------------*/
+
+/*banner-2 and 2 para*/
+.banner-header-2{
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(56 182 255);
+}
+.banner-p{
+    font-size:15px ;
+    font-weight: 300;
+    text-align: center;
+}
+.link{
+    padding: 10px 0;
+    text-align: center;
+}
+.read-link{
+    
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(56 182 255);
+    text-decoration: none;
+}
+/*----------------------------------------------------*/
+
+/*lifestyle*/
+.lifestyle-header{
+    color: rgb(56 182 255);
+    font-size: 40px;
+    font-weight: 700;
+}
+.lifestyle-content{
+    font-size: 18px;
+    font-weight: 400;
+}
+.justify{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    padding: 10px 45px;
+}
+.card-3{
+    background: rgb(56 182 255);
+    padding: 0;
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
+}
+.content-4{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 0;
+}
+#card-link{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+/*---------------------------------------------------*/
+
+/*mission*/
+.mission{
+    background: rgb(56 182 255);
+    text-align: center;
+}
+.mission-header{
+    padding-top: 30vh;
+    padding-bottom: 20px;
+    font-size: 50px;
+    font-weight: 700;
+    color: blue;
+}
+.mission-p{
+    font-size: 20px;
+    font-weight: 300;
+    color: blue;
+    padding-bottom: 30vh;
+}
+/*--------------------------------------------------*/
+.footer{
+    margin-top: -16px;
+    background: url("src/assets/img/student-life/41.png") no-repeat bottom /cover;
+    min-height: 100vh;
+}
