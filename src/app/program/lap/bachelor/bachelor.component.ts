@@ -18,6 +18,7 @@ export class BachelorComponent implements OnInit {
 
   majorComponent = BusinessComponent;
 
+
   constructor() { }
 
   ngOnInit(): void {

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap');
 
-body{
+.body {
     background-color: #efefef;
     font-family: 'Barlow';
 }
@@ -37,6 +37,26 @@ button {
     font-size: 25px;
 }
 
+.f-30 {
+    font-size: 30px;
+}
+
+.f-40 {
+    font-size: 40px;
+}
+
+.fw-4 {
+    font-weight: 400;
+}
+
+.fw-5 {
+    font-weight: 500;
+}
+
+.fw-6 {
+    font-weight: 600;
+}
+
 .fw-7 {
     font-weight: 700;
 }
@@ -55,6 +75,14 @@ button {
 
 .ml-5 {
     margin-left: 3.7rem;
+}
+
+.font-bc {
+    font-family: 'Barlow Condensed';
+}
+
+.font-b {
+    font-family: 'Barlow';
 }
 
 .section-box {
@@ -156,22 +184,27 @@ button {
     border: 4px solid #38b6ff;
 }
 
-#applyImage {
+#aboutImages {
     width: 430px; 
-    height: 580px;
+    height: 620px;
     object-fit: cover;
-    object-position: 17% 0;
-    border-radius: 35px;
-    border: 6px solid #38b6ff;
+    object-position: 16% 0;
 }
 
-#whyapplyImage {
-    width: 480px; 
-    height: 500px;
+#aboutImage {
+    width: 300px; 
+    height: 450px;
     object-fit: cover;
     object-position: 55% 0;
     border-radius: 35px;
-    border: 6px solid #fff;
+}
+
+#aboutImage2 {
+    width: 270px; 
+    height: 260px;
+    object-fit: cover;
+    object-position: 55% 0;
+    border-radius: 4rem;
 }
 
 #whyapplyText {

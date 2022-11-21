@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-music',
@@ -7,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MusicComponent implements OnInit {
 
+  faChevronDown = faChevronDown;
+  
   constructor() { }
 
   ngOnInit(): void {

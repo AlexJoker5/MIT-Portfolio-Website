@@ -1,36 +1,107 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&family=Barlow:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/aileron');
+
+* {
+    font-family: 'Barlow';
+}
+
+.bg-none {
+    background: inherit;
+}
+
+.f-15 {
+    font-size: 15px;
+}
+
+.f-17 {
+    font-size: 17px;
+}
+
+.f-19 {
+    font-size: 19px;
+}
+
+.f-20 {
+    font-size: 20px;
+}
+
+.f-25 {
+    font-size: 25px;
+}
+
+.f-30 {
+    font-size: 30px;
+}
+
+.f-40 {
+    font-size: 40px;
+}
+
+.fw-7 {
+    font-weight: 700;
+}
+
+.fw-8 {
+    font-weight: 800;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.ms-6 {
+    margin-left: 3.7rem;
+}
+
+.me-6 {
+    margin-right: 3.7rem;
+}
+
+.mt-6 {
+    margin-top: 40px;
+}
+
 footer{
     background: rgba(0, 0, 0, 0.85);
-    font-family: 'Barlow', sans-serif;
-    padding: 20px 10px;
+    padding: 60px 0;
+    border: 3px solid #58c0fc;
 }
+
+.font-ai {
+    font-family: 'Aileron';
+}
+
+.font-bc {
+    font-family: 'Barlow Condensed';
+}
+
 .info-1{
     font-size: 35px;
-    font-weight: 600;
     color: rgb(56 182 255);
 }
 .info-2{
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 18px;
     color: rgb(56 182 255);
+    font-weight: 700;
 }
 .content-1{
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 400;
     color: white;
 }
 .content-2{
-    font-size:13px;
+    font-size: 15px;
     font-weight: 400;
     color: white;
 }
 .content-3{
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 300;
     color: white;
+    letter-spacing: 1px;
 }
 .info-align{
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .p{
     padding: 20px 15px;
@@ -42,11 +113,22 @@ footer{
     text-align: center;
     color: white;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 700;
 }
 .decorate{
     margin-top: 0.5rem ;
     font-size: 60px;
     font-weight: 300;
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+}
+
+#straightLine {
+    width: 3px;
+    height: 50px;
+    background-color: #ffffff;
 }
 

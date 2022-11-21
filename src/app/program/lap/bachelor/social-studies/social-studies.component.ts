@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-social-studies',
@@ -7,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SocialStudiesComponent implements OnInit {
 
+  faChevronDown = faChevronDown;
+  
   constructor() { }
 
   ngOnInit(): void {

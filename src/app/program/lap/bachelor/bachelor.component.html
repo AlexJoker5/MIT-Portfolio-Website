@@ -1,57 +1,64 @@
-<section id="showcase" class="d-flex align-items-end">
-    <div id="textbox" class="container text-white text-center">
-        <h2 id="headTitle" class="mb-0">Bachelor of Art and Science</h2>
-    </div>
-</section>
-<hr class="p-0 m-0">
-<section>
-    <div class="container-xl py-2">
-        <div class="container w-100 py-5">
-            <h1 class="text-center fw-7 text-theme">Six Majors in Bachelor of Art and Science<br>(LAP)</h1>
+<div class="body">
+    <section id="showcase" class="d-flex align-items-end">
+        <div id="textbox" class="container text-white text-center">
+            <h2 id="headTitle" class="mb-0">Bachelor of Art and Science</h2>
         </div>
-        <div class="d-flex container-fluid pb-5 justify-content-around align-items-center">
-            <div class="col-md-3">
-                <img class="rounded-circle object-fit-cover border-theme border-3" width="250" height="250" src="../../../../assets/img/bachelor/13.png" alt="">
+    </section>
+    <hr class="p-0 m-0">
+    <section>
+        <div class="container-xl py-2">
+            <div class="container w-100 py-5">
+                <h1 class="text-center fw-7 text-theme">Six Majors in Bachelor of Art and Science<br>(LAP)</h1>
             </div>
-            <div class="col-md-3">
-                <img class="rounded-circle object-fit-cover border-theme border-3" width="250" height="250" src="../../../../assets/img/bachelor/13.png" alt="">
-            </div>
-            <div class="col-md-3">
-                <img class="rounded-circle object-fit-cover border-theme border-3" width="250" height="250" src="../../../../assets/img/bachelor/13.png" alt="">
-            </div>
-        </div>
-    </div>
-</section>
-<hr class="p-0 m-0">
-<section>
-    <div>
-        <div class="container-xl my-2 p-0 bg-theme d-flex justify-content-around">
-            <button class="text-white p-4 fw-7 bg-theme" id="sub-nav-link" (click)="assignComponent('business')">Business</button>
-            <button class="text-white p-4 fw-7 bg-theme" id="sub-nav-link" (click)="assignComponent('computerStudies')">Computer Studies</button>
-            <button class="text-white p-4 fw-7 bg-theme" id="sub-nav-link" (click)="assignComponent('english')">English</button>
-            <button class="text-white p-4 fw-7 bg-theme" id="sub-nav-link" (click)="assignComponent('music')">Music</button>
-            <button class="text-white p-4 fw-7 bg-theme" id="sub-nav-link" (click)="assignComponent('religion')">Religion</button>
-            <button class="text-white p-4 fw-7 bg-theme" id="sub-nav-link" (click)="assignComponent('socialStudies')">Social Studies</button>
-        </div>
-        <div class="container-xl py-2 p-0">
-            <ng-container *ngComponentOutlet="majorComponent"></ng-container>
-        </div>
-    </div>
-</section>
-<hr class="p-0 m-0">
-<section class="bg-theme">
-    <div class="container-xl py-2">
-        <div class="d-flex container-fluid py-5 justify-content-around align-items-center">
-            <div class="col-md-5">
-                <div id="applyImageBox"><img id="whyapplyImage" width="650" height="350" src="../../assets/img/how-to-apply/whyYouShouldApply.png" alt=""></div>
-            </div>
-            <div class="col-md-5 pe-5">
-                <h1 class="mb-0 text-header text-white">Why You Should Apply to MIT</h1>
-                <p class="mb-0 mt-3 text-align-justify f-25 font-bc">
-                    The objectives of Myanmar Institute of Theology include  producing competent and faithful young leaders and scholars at national and international levels. Moreover,  it has so much networking with universities, colleges and other academic institutions within and outside Myanmar. Those who love adventures, challenges and so on, will easily be fit into the atmosphere of the School.
-                </p>
+            <div class="d-flex container-fluid pb-5 justify-content-around align-items-center">
+                <div class="col-md-3">
+                    <img class="rounded-circle object-fit-cover border-theme border-3" width="250" height="250" src="../../../../assets/img/program/13.png" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img class="rounded-circle object-fit-cover border-theme border-3" width="250" height="250" src="../../../../assets/img/program/33.png" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img class="rounded-circle object-fit-cover border-theme border-3" width="250" height="250" src="../../../../assets/img/program/38.png" alt="">
+                </div>
             </div>
         </div>
-    </div>
-</section>
-<hr class="p-0 m-0">
+    </section>
+    <hr class="p-0 m-0">
+    <section>
+        <div>
+            <div class="container-xl my-2 p-0 bg-theme d-flex justify-content-around">
+                <button class="text-white p-4 fw-7 bg-theme" id="sub-nav-link" (click)="assignComponent('business')">Business</button>
+                <button class="text-white p-4 fw-7 bg-theme" id="sub-nav-link" (click)="assignComponent('computerStudies')">Computer Studies</button>
+                <button class="text-white p-4 fw-7 bg-theme" id="sub-nav-link" (click)="assignComponent('english')">English</button>
+                <button class="text-white p-4 fw-7 bg-theme" id="sub-nav-link" (click)="assignComponent('music')">Music</button>
+                <button class="text-white p-4 fw-7 bg-theme" id="sub-nav-link" (click)="assignComponent('religion')">Religion</button>
+                <button class="text-white p-4 fw-7 bg-theme" id="sub-nav-link" (click)="assignComponent('socialStudies')">Social Studies</button>
+            </div>
+            <div class="container-xl py-2 p-0 mb-5">
+                <ng-container *ngComponentOutlet="majorComponent"></ng-container>
+            </div>
+        </div>
+    </section>
+    <hr class="p-0 m-0">
+    <section class="bg-theme">
+        <div class="container-xl py-2 px-0">
+            <div class="d-flex container-fluid py-5 px-0 justify-content-between align-items-center">
+                <div class="col-md-8">
+                    <h1 class="mb-0 text-header text-white font-b">About Bachelor of Art and Science</h1>
+                    <p class="mb-0 mt-5 text-align-justify f-30 fw-4 font-bc td-5">MIT's liberal arts spectrum is covering in the fields of Arts & Languages, Humanity & Religions, Social Sciences, English, Economic, and Technology. Presently, liberal arts program is offering six different majors (Business, Computer, English, Music, Religion, and Social Studies) to all bachelor students; the program also offers many new options for elective courses not only two years courses like languages, Journalism, and Music, but also one semester courses such as Office Administration, Basic Accounting for NGOs, Team management, Religion and peace, Religion and Gender, Development Communication, Sociology, and many more. Measures are being taken to transform Journalism elective course into a major course in the near future. Previous community outreach program for third year students was transformed it into internship program for final year students which mainly focuses on professional development experiencing in real life situation.<br>Internship program is a pre-requisite for graduation and students have to complete at least 120 hours of internship in relation to their major fields.</p>
+                </div>
+                <div class="col-md-3 pb-5">
+                    <div class="d-flex justify-content-center">
+                        <div id="aboutImages">
+                            <img id="aboutImage" width="350" height="200" src="../../../../assets/img/program/22.png" alt="">
+                            <div class="d-flex justify-content-center">
+                                <img class="mt-4" id="aboutImage2" width="350" height="200" src="../../../../assets/img/program/20.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="p-0 m-0">
+</div>
