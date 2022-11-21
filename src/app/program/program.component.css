@@ -1,5 +1,5 @@
 .head_img{
-    background: url(/assets/img/program/32.png);
+    background: url(.../assets/img/program/32.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -15,7 +15,7 @@
 }
 
 .img1{
-    background: url(/assets/img/program/31.png);
+    background: url(.../assets/img/program/31.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 380px;
@@ -28,7 +28,7 @@
 }
 
 .img2{
-    background: url(/assets/img/program/29.png);
+    background: url(.../assets/img/program/29.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 380px;
@@ -41,7 +41,7 @@
 }
 
 .img3{
-    background: url(/assets/img/program/28.png);
+    background: url(.../assets/img/program/28.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 250px;
@@ -54,7 +54,7 @@
 }
 
 .img4{
-    background: url(/assets/img/program/27.png);
+    background: url(.../assets/img/program/27.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 350px;
@@ -67,7 +67,7 @@
 }
 
 .img5{
-    background: url(/assets/img/program/22.png);
+    background: url(.../assets/img/program/22.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 150px;
@@ -80,7 +80,7 @@
 }
 
 .img6{
-    background: url(/assets/img/program/17.png);
+    background: url(.../assets/img/program/17.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 180px;
@@ -93,7 +93,7 @@
 }
 
 .img7{
-    background: url(/assets/img/program/26.png);
+    background: url(.../assets/img/program/26.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -101,7 +101,7 @@
 }
 
 .img8{
-    background: url(/assets/img/program/25.png);
+    background: url(.../assets/img/program/25.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -109,7 +109,7 @@
 }
 
 .img9{
-    background: url(/assets/img/program/13.png);
+    background: url(.../assets/img/program/13.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -169,7 +169,7 @@
 }
 
 .foot_img{
-    background: url(/assets/img/program/24.png);
+    background: url(.../assets/img/program/24.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;

@@ -16,13 +16,13 @@ import { StudentLifeComponent } from './student-life/student-life.component';
 import { DepartmentComponent } from './department/department.component';
 import { ProgramComponent } from './program/program.component';
 import { LapComponent } from './program/lap/lap.component';
-import { BachelorComponent } from './program/lap/bachelor/bachelor.component';
-import { BusinessComponent } from './program/lap/bachelor/business/business.component';
-import { ComputerStudiesComponent } from './program/lap/bachelor/computer-studies/computer-studies.component';
-import { EnglishComponent } from './program/lap/bachelor/english/english.component';
-import { MusicComponent } from './program/lap/bachelor/music/music.component';
-import { ReligionComponent } from './program/lap/bachelor/religion/religion.component';
-import { SocialStudiesComponent } from './program/lap/bachelor/social-studies/social-studies.component';
+import { BachelorComponent } from './program/bachelor/bachelor.component';
+import { BusinessComponent } from './program/bachelor/business/business.component';
+import { ComputerStudiesComponent } from './program/bachelor/computer-studies/computer-studies.component';
+import { EnglishComponent } from './program/bachelor/english/english.component';
+import { MusicComponent } from './program/bachelor/music/music.component';
+import { ReligionComponent } from './program/bachelor/religion/religion.component';
+import { SocialStudiesComponent } from './program/bachelor/social-studies/social-studies.component';
 
 @NgModule({
   declarations: [

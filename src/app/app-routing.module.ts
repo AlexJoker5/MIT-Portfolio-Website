@@ -5,8 +5,7 @@ import { AboutMITComponent } from './about-mit/about-mit.component';
 import { DepartmentComponent } from './department/department.component';
 import { HomeComponent } from './home/home.component';
 import { HowToApplyComponent } from './how-to-apply/how-to-apply.component';
-import { BachelorComponent } from './program/lap/bachelor/bachelor.component';
-import { LapComponent } from './program/lap/lap.component';
+import { BachelorComponent } from './program/bachelor/bachelor.component';
 import { ProgramComponent } from './program/program.component';
 import { StudentLifeComponent } from './student-life/student-life.component';
 
@@ -34,10 +33,6 @@ const routes: Routes = [
   {
     path:'department',
     component:DepartmentComponent
-  },
-  {
-    path:'lap',
-    component:LapComponent
   },
   {
     path:'lap/bachelor',
