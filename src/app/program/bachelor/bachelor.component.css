@@ -127,7 +127,7 @@ button {
 #showcase {
     width: auto;
     height: 90vh;
-    background: url(".../../../../assets/img/how-to-apply/bg.png") center -130px / 100% 140vh no-repeat;
+    background: url("src/assets/img/how-to-apply/bg.png") center -130px / 100% 140vh no-repeat;
     margin-top: 4rem;
 }
 
@@ -152,7 +152,7 @@ button {
 #bottomShowCase {
     width: auto;
     height: 90vh;
-    background: url(".../../../../assets/img/how-to-apply/botBackground.png") center -130px / 100% 140vh no-repeat;
+    background: url("src/assets/img/how-to-apply/botBackground.png") center -130px / 100% 140vh no-repeat;
 }
 
 #overlay {
