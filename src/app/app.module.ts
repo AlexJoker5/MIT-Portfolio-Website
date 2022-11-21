@@ -15,7 +15,6 @@ import { AboutMITComponent } from './about-mit/about-mit.component';
 import { StudentLifeComponent } from './student-life/student-life.component';
 import { DepartmentComponent } from './department/department.component';
 import { ProgramComponent } from './program/program.component';
-import { LapComponent } from './program/lap/lap.component';
 import { BachelorComponent } from './program/bachelor/bachelor.component';
 import { BusinessComponent } from './program/bachelor/business/business.component';
 import { ComputerStudiesComponent } from './program/bachelor/computer-studies/computer-studies.component';
@@ -35,7 +34,6 @@ import { SocialStudiesComponent } from './program/bachelor/social-studies/social
     StudentLifeComponent,
     DepartmentComponent,
     ProgramComponent,
-    LapComponent,
     BachelorComponent,
     BusinessComponent,
     ComputerStudiesComponent,

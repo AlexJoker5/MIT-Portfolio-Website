@@ -5,6 +5,7 @@ import { EnglishComponent } from './english/english.component';
 import { MusicComponent } from './music/music.component';
 import { ReligionComponent } from './religion/religion.component';
 import { SocialStudiesComponent } from './social-studies/social-studies.component';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-bachelor',
@@ -17,7 +18,6 @@ export class BachelorComponent implements OnInit {
   container!: ViewContainerRef
 
   majorComponent = BusinessComponent;
-
 
   constructor() { }
 
