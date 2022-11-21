@@ -90,7 +90,7 @@
 }
 
 .img_w{
-    background: url(/assets/img/department/11.png);
+    background: url(src/assets/img/department/11.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 300px;
@@ -102,7 +102,7 @@
 }
 
 .img_m{
-    background: url(/assets/img/department/9.png);
+    background: url(src/assets/img/department/9.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 180px;
@@ -111,7 +111,7 @@
 }
 
 .foot_img{
-    background: url(/assets/img/department/2.png);
+    background: url(src/assets/img/department/2.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -121,7 +121,7 @@
 .s_img1{
     width: 200px;
     height: 200px;
-    background: url(/assets/img/department/18.png);
+    background: url(src/assets/img/department/18.png);
     background-size: cover;
     background-repeat: no-repeat;
     border-color: #38b6ff;
@@ -133,7 +133,7 @@
 .s_img2{
     width: 200px;
     height: 200px;
-    background: url(/assets/img/department/16.png);
+    background: url(src/assets/img/department/16.png);
     background-size: cover;
     background-repeat: no-repeat;
     border-color: #38b6ff;
@@ -145,7 +145,7 @@
 .s_img3{
     width: 200px;
     height: 200px;
-    background: url(/assets/img/department/17.png);
+    background: url(src/assets/img/department/17.png);
     background-size: cover;
     background-repeat: no-repeat;
     border-color: #38b6ff;
@@ -157,7 +157,7 @@
 .s_img4{
     width: 200px;
     height: 200px;
-    background: url(/assets/img/department/15.png);
+    background: url(src/assets/img/department/15.png);
     background-size: cover;
     background-repeat: no-repeat;
     border-color: #38b6ff;
