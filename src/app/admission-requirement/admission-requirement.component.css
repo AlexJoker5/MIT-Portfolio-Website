@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap');
+/*general*/
+* {
+    font-family: 'Barlow';
+}
+
+.font-bc {
+    font-family: 'Barlow Condensed';
+}
+
+section {
+    background-color: #efefef;
+}
+
+.text-header {
+    font-size: 40px;
+    font-weight: 700;
+}
+.text-theme{
+    color: #38b6ff;
+}
+.mr-90{
+    margin-right: 90px;
+}
+
+.f-15 {
+    font-size: 15px;
+}
+
+.f-17 {
+    font-size: 17px;
+}
+
+.f-19 {
+    font-size: 19px;
+}
+
+.f-20 {
+    font-size: 20px;
+}
+
+.f-24 {
+    font-size: 24px;
+}
+
+.f-25 {
+    font-size: 25px;
+}
+
+.fw-7 {
+    font-weight: 700;
+}
+
+.fw-8 {
+    font-weight: 800;
+}
+
+.f-21 {
+    font-size: 21px;
+}
+.f-28{
+    font-size: 28px;
+}
+.fw-7{
+    font-weight: 700;
+}
+
+.lh-6 {
+    line-height: 45px;
+}
+.text-align-justify {
+    text-align: justify;
+}
+.ff-c{
+    font-family:'Barlow Condensed', sans-serif;;
+}
+.bg-theme{
+    background-color: #38b6ff ;
+}
+/*top-banner*/
+#showcase {
+    width: auto;
+    height: 90vh;
+    background: url("src/assets/img/admission-requirement/bg.png") center -130px / 100% 140vh no-repeat;
+    margin-top: 4rem;
+}
+#textbox {
+    z-index: 2;
+    padding: 20px 0;
+    margin: 0;
+    max-width: 100%;
+    background: rgba(0,0,0,0.5);
+}
+#headTitle {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+/*How to pay*/
+#payImage {
+    width: 430px; 
+    height: 480px;
+    object-fit: cover;
+    object-position: 50% 0;
+    border-radius: 35px;
+    border: 6px solid #38b6ff;
+}
+
+/*cards besides semester*/
+.card-1{
+    width: 150px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 2rem;
+    display: inline-block;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    border:3px solid #38b6ff;
+}
+
+.card-2{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 2rem;
+    display: inline-block;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    border:3px solid #38b6ff;
+}
+
+#applyImage {
+    width: 200px; 
+    height: 300px;
+    object-fit: cover;
+    object-position: 17% 0;
+    border-radius: 35px;
+    border: 6px solid #38b6ff;
+}
+
+#whyapplyImage {
+    width: 200px; 
+    height: 300px;
+    object-fit: cover;
+    object-position: 55% 0;
+    border-radius: 35px;
+    border: 6px solid #38b6ff;
+}
+
+#applyImage1 {
+    width: 200px; 
+    height: 200px;
+    object-fit: cover;
+    object-position: 17% 0;
+    border-radius: 35px;
+    border: 6px solid #38b6ff;
+}
+
+#whyapplyImage1 {
+    width: 200px; 
+    height: 200px;
+    object-fit: cover;
+    object-position: 55% 0;
+    border-radius: 35px;
+    border: 6px solid #38b6ff;
+}
+
+
+#applyImage2 {
+    width: 350px; 
+    height: 580px;
+    object-fit: cover;
+    object-position: 17% 0;
+    border-radius: 35px;
+    border: 6px solid #38b6ff;
+}
+
+#whyapplyImage2 {
+    width: 350px; 
+    height: 500px;
+    object-fit: cover;
+    object-position: 55% 0;
+    border-radius: 35px;
+    border: 6px solid #fff;
+}
+
+
+#applyImage3 {
+    width: 350px; 
+    height: 450px;
+    object-fit: cover;
+    object-position: 17% 0;
+    border-radius: 35px;
+    border: 6px solid #38b6ff;
+}
+
+#whyapplyImage3 {
+    width: 350px; 
+    height: 450px;
+    object-fit: cover;
+    object-position: 55% 0;
+    border-radius: 35px;
+    border: 6px solid #fff;
+}
+
+#applyImage4 {
+    width: 450px; 
+    height: 200px;
+    object-fit: cover;
+    object-position: 17% 0;
+    border-radius: 35px;
+    border: 6px solid #38b6ff;
+}
+
+#whyapplyImage4 {
+    width: 450px; 
+    height: 200px;
+    object-fit: cover;
+    object-position: 55% 0;
+    border-radius: 35px;
+    border: 6px solid #38b6ff;
+}
+
+
+/*footer showcase*/
+#bottomShowCase {
+    width: auto;
+    height: 90vh;
+    background: url("src/assets/img/admission-requirement/bt-bg.png") center -130px / 100% 140vh no-repeat;
+}

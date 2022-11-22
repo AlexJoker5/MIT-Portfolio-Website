@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap');
+/*general*/
+* {
+    font-family: 'Barlow';
+}
+
+section {
+    background-color: #efefef;
+}
+
+.text-header {
+    font-size: 40px;
+    font-weight: 700;
+}
+.text-theme{
+    color: #38b6ff;
+}
+.mr-90{
+    margin-right: 90px;
+}
+.f-21 {
+    font-size: 21px;
+}
+.f-28{
+    font-size: 28px;
+}
+.fw-7{
+    font-weight: 700;
+}
+.text-align-justify {
+    text-align: justify;
+}
+.ff-c{
+    font-family:'Barlow Condensed', sans-serif;;
+}
+.bg-theme{
+    background-color: #38b6ff ;
+}
+/*top-banner*/
+#showcase {
+    width: auto;
+    height: 90vh;
+    background: url("src/assets/img/entry-requirement/entry-req.png") center -130px / 100% 140vh no-repeat;
+    margin-top: 4rem;
+}
+#textbox {
+    z-index: 2;
+    padding: 20px 0;
+    margin: 0;
+    max-width: 100%;
+    background: rgba(0,0,0,0.5);
+}
+#headTitle {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+/*How to pay*/
+#payImage {
+    width: 430px; 
+    height: 480px;
+    object-fit: cover;
+    object-position: 50% 0;
+    border-radius: 35px;
+    border: 6px solid #38b6ff;
+}
+
+/*cards besides semester*/
+.card-1{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 2rem;
+    display: inline-block;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    border:3px solid #38b6ff;
+}
+#semester-photo-1{
+    background: url("src/assets/img/entry-requirement/card-1.png") center -20px /100% 40vh no-repeat;
+    object-fit: cover;
+}
+#semester-photo-2{
+    background: url("src/assets/img/entry-requirement/card-2.png") center -50px /100% 40vh no-repeat;
+    object-fit: cover;
+}
+#semester-photo-3{
+    background: url("src/assets/img/entry-requirement/card-3.png") center -40px /100% 40vh no-repeat;
+    object-fit: cover;
+}
+#semester-photo-4{
+    background: url("src/assets/img/entry-requirement/card-4.png") center -20px /100% 40vh no-repeat;
+    object-fit: cover;
+}
+/*footer showcase*/
+#bottomShowCase {
+    width: auto;
+    height: 90vh;
+    background: url("src/assets/img/entry-requirement/bottom-banner.png") center -130px / 100% 140vh no-repeat;
+}

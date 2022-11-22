@@ -1,41 +1,55 @@
-
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" id="">
-            <div class="d-flex justify-content-between container-fluid bg-b-theme" id="navbar_top">
-                <a class="d-flex navbar-brand justify-content-center" routerLink="" id="logo-title">
-                    <img src=".../../assets/img/MIT_logo.png" alt="" class="logo"> 
-                    <p class="nav-title">Myanmar Institute of Theology</p>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="container-fluid">
-                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="align-items-center navbar-nav pr-1 mb-0 w-100 d-flex justify-content-end">
-                            <li class="nav-item active p-1 px-2 h-100 d-flex align-items-center">
-                              <a class="nav-link" routerLink="/about-mit" >About MIT</a>
-                            </li>
-                            <img src=".../../assets/img/Vector.png" class="vector" alt="">
-                            <li class="nav-item p-1 px-2 d-flex align-items-center">
-                              <a class="nav-link" routerLink="/program">Programs</a>
-                            </li>
-                            <img src=".../../assets/img/Vector.png" class="vector" alt="">
-                            <li class="nav-item p-1 px-2 d-flex align-items-center">
-                                <a class="nav-link" routerLink="/department">Department<br>Information</a>
-                            </li>
-                            <img src=".../../assets/img/Vector.png" class="vector" alt="">
-                            <li class="nav-item p-1 px-2 d-flex align-items-center">
-                                <a class="nav-link" routerLink="/how-to-apply" >How To Apply</a>
-                            </li>
-                            <img src=".../../assets/img/Vector.png" class="vector" alt="">
-                            <li class="nav-item p-1 px-2 d-flex align-items-center">
-                                <a class="nav-link" routerLink="/student-life">Student Life</a>
-                            </li>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-b-theme " id="">
+            <a class="d-flex navbar-brand justify-content-center" routerLink="" id="logo-title">
+                <img src=".../../assets/img/MIT_logo.png" alt="" class="logo"> 
+                <p class="nav-title">Myanmar Institute of Theology</p>
+            </a>
+            <button class="navbar-toggler" type="button" (click)="toggleMenu()" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" [attr.aria-expanded]="!isCollapsed" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="container-fluid">
+                 <div class="collapse navbar-collapse" id="navbarSupportedContent" [ngbCollapse]="isCollapsed">
+                    <ul class="align-items-center navbar-nav pr-1 mb-0 w-100 d-flex justify-content-end">
+                        <li ngbDropdown class="nav-item dropdown p-1 px-2 h-100 d-flex align-items-center">
+                          <a class="nav-link text-white" id="navbarDropdown" role="button" data-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false" aria-label="Toggle navigation" routerLink="/about-mit" >About MIT</a>
+                          <ul ngbDropdownMenu class="dropdown-menu text-white" aria-labelledby="navbarDarkDropdown">
+                            <li ngbDropdownItem><a class="dropdown-item" routerLink="/about-mit/contact-us">Contact Us</a></li>
+                            <li ngbDropdownItem><a class="dropdown-item" routerLink="/not-available">Public Events</a></li>
+                            <li ngbDropdownItem><a class="dropdown-item" routerLink="/about-mit/developer-team">Developer Team</a></li>
+                            <li ngbDropdownItem><a class="dropdown-item" routerLink="/not-available">Resource and Additional Info</a></li>
                         </ul>
-                    </div>
+                        </li>
+                        <img src=".../../assets/img/Vector.png" class="vector" alt="">
+                        <li ngbDropdown class="nav-item dropdown p-1 px-2 h-100 d-flex align-items-center">
+                            <a class="nav-link text-white" id="navbarDropdown" role="button" data-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false" aria-label="Toggle navigation" routerLink="/program" >Program</a>
+                            <ul ngbDropdownMenu class="dropdown-menu text-white" aria-labelledby="navbarDarkDropdown">
+                              <li ngbDropdownItem><a class="dropdown-item" routerLink="/not-available">Theology Program</a></li>
+                              <li ngbDropdownItem><a class="dropdown-item" routerLink="/program/lap">Liberal Arts Program</a></li>
+                          </ul>
+                          </li>
+                        <img src=".../../assets/img/Vector.png" class="vector" alt="">
+                        <li ngbDropdown class="nav-item dropdown p-1 px-2 h-100 d-flex align-items-center">
+                            <a class="nav-link text-white" id="navbarDropdown" role="button" data-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false" aria-label="Toggle navigation" routerLink="/department" >Department<br>Information</a>
+                            <ul ngbDropdownMenu class="dropdown-menu text-white" aria-labelledby="navbarDarkDropdown">
+                              <li ngbDropdownItem><a class="dropdown-item" routerLink="/not-available">Meet Our Staff</a></li>
+                          </ul>
+                          </li>
+                        <img src=".../../assets/img/Vector.png" class="vector" alt="">
+                        <li ngbDropdown class="nav-item dropdown p-1 px-2 h-100 d-flex align-items-center">
+                            <a class="nav-link text-white" id="navbarDropdown" role="button" data-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false" aria-label="Toggle navigation" routerLink="/how-to-apply" >How To Apply</a>
+                            <ul ngbDropdownMenu class="dropdown-menu text-white" aria-labelledby="navbarDarkDropdown">
+                              <li ngbDropdownItem><a class="dropdown-item" routerLink="/how-to-apply/admission-requirement">Admission Requirement</a></li>
+                              <li ngbDropdownItem><a class="dropdown-item" routerLink="/how-to-apply/entry-requirement">Entry Requirement</a></li>
+                              <li ngbDropdownItem><a class="dropdown-item" routerLink="how-to-apply/fee">Fees</a></li>
+                              <li ngbDropdownItem><a class="dropdown-item" routerLink="/how-to-apply/how-to-pay">How To Pay</a></li>
+                          </ul>
+                          </li>
+                        <img src=".../../assets/img/Vector.png" class="vector" alt="">
+                        <li class="nav-item p-1 px-2 d-flex align-items-center">
+                            <a class="nav-link text-white" routerLink="/student-life">Student Life</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </nav>
-    </header>
-
-
+    </nav>
+</header>

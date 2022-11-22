@@ -113,6 +113,23 @@ li {
     height: 4rem;
 }
 
+.dropdown .dropdown-menu a {
+    padding: 10px 10px;
+    background-color: rgb(245, 245, 245);
+    color: #333333;
+}
+
+.dropdown .dropdown-menu a:hover {
+    padding: 10px 10px;
+    background-color: #84d1fd;
+    color: #ffffff;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    background-color: #d4d4d4;
+}
+
 /* Scroll */
 .scroll-down header {
     transform: translate3d(0, -100%, 0);

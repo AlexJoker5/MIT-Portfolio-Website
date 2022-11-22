@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap');
+
+* {
+    font-family: 'Barlow';
+}
+
+section {
+    background-color: #efefef;
+}
+
+.font-bc {
+    font-family: 'Barlow Condensed';
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.f-15 {
+    font-size: 15px;
+}
+
+.f-17 {
+    font-size: 17px;
+}
+
+.f-19 {
+    font-size: 19px;
+}
+
+.f-20 {
+    font-size: 20px;
+}
+
+.f-25 {
+    font-size: 25px;
+}
+
+.fw-7 {
+    font-weight: 700;
+}
+
+.fw-8 {
+    font-weight: 800;
+}
+
+.text-theme{
+    color: #38b6ff;
+}
+
+.ml-4 {
+    margin-left: 2.4rem;
+}
+
+.ml-5 {
+    margin-left: 3.7rem;
+}
+
+.section-box {
+    width: 100%;
+    height: 110vh;
+}
+
+.text-header {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.mt-3 {
+    margin-top: 4rem;
+}
+
+.text-align-justify {
+    text-align: justify;
+}
+
+.theme-border {
+    width: 100%;
+    border: 3px solid #38b6ff;
+}
+
+.bg-theme {
+    background-color: #38b6ff;
+}
+
+.btn-theme {
+    background-color: #38b6ff;
+    padding: 10px 60px;
+    color: #fff;
+    border: none;
+
+}
+
+.btn-theme-rounded{
+    background-color: #38b6ff;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5rem;
+}
+
+#showcase {
+    width: auto;
+    height: 90vh;
+    background: url("src/assets/img/lap/bg.png") center -130px / 100% 140vh no-repeat;
+    margin-top: 4rem;
+}
+
+#bottomShowCase {
+    width: auto;
+    height: 90vh;
+    background: url("src/assets/img/lap/bt-bg.png") center -130px / 100% 140vh no-repeat;
+}
+
+#overlay {
+    background: rgba(0,0,0,0.2);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#textbox {
+    z-index: 2;
+    padding: 20px 0;
+    margin: 0;
+    max-width: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+#headTitle {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#applyImage {
+    width: 430px; 
+    height: 580px;
+    object-fit: cover;
+    object-position: 17% 0;
+    border-radius: 35px;
+    border: 6px solid #38b6ff;
+}
+
+#whyapplyImage {
+    width: 480px; 
+    height: 500px;
+    object-fit: cover;
+    object-position: 55% 0;
+    border-radius: 35px;
+    border: 6px solid #38b6ff;
+}
+
+#applyImage1 {
+    width: 300px; 
+    height: 580px;
+    object-fit: cover;
+    object-position: 17% 0;
+    border-radius: 35px;
+    border: 6px solid #38b6ff;
+}
+
+#whyapplyImage1 {
+    width: 300px; 
+    height: 500px;
+    object-fit: cover;
+    object-position: 55% 0;
+    border-radius: 35px;
+    border: 6px solid #38b6ff;
+}
+
+#applyImage2 {
+    width: 300px; 
+    height: 580px;
+    object-fit: cover;
+    object-position: 17% 0;
+    border-radius: 35px;
+    border: 6px solid #38b6ff;
+}
+
+#whyapplyImage2 {
+    width: 200px; 
+    height: 200px;
+    object-fit: cover;
+    object-position: 55% 0;
+    border-radius: 35px;
+    border: 6px solid #38b6ff;
+}
+
+#whyapplyText {
+    font-size: 24px;
+}
+
+#entryImage {
+    width: 400px; 
+    height: 280px;
+    object-fit: cover;
+    object-position: 10% 0;
+}
+
+#entryBox {
+    height: 516px;
+}
+
+#boxImage {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 20% 0;
+}
+
+#boxImageFrame{
+    width: 300px;
+    height: 500px;
+}
+
+#becomeBox {
+    width: 310px;
+    height: 420px;
+}
+
+#feesImg {
+    width: 310px; 
+    height: 230px;
+    object-fit: cover;
+    object-position: 44% 0;
+}
+
+#feesImg1 {
+    width: 250px; 
+    height: 400px;
+    object-fit: cover;
+    object-position: 44% 0;
+}
+
+#frame {
+    width: 510px;
+    height: 400px;
+}

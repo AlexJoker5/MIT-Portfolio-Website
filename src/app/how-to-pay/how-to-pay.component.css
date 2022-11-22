@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap');
+/*general*/
+* {
+    font-family: 'Barlow';
+}
+
+section {
+    background-color: #efefef;
+}
+
+.text-header {
+    font-size: 45px;
+    font-weight: 700;
+}
+.text-theme{
+    color: #38b6ff;
+}
+.f-19 {
+    font-size: 19px;
+}
+.fw-7{
+    font-weight: 700;
+}
+.text-align-justify {
+    text-align: justify;
+}
+.ff-c{
+    font-family:'Barlow Condensed', sans-serif;;
+}
+/*top-banner*/
+#showcase {
+    width: auto;
+    height: 90vh;
+    background: url("src/assets/img/how-to-pay/how-to-pay.png") center -200px / 100% 140vh no-repeat;
+    margin-top: 4rem;
+}
+#textbox {
+    z-index: 2;
+    padding: 20px 0;
+    margin: 0;
+    max-width: 100%;
+    background: rgba(0,0,0,0.5);
+}
+#headTitle {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+/*How to pay*/
+#payImage {
+    width: 430px; 
+    height: 480px;
+    object-fit: cover;
+    object-position: 17% 0;
+    border-radius: 35px;
+    border: 6px solid #38b6ff;
+}
+
+/*footer showcase*/
+#bottomShowCase {
+    width: auto;
+    height: 90vh;
+    background: url("src/assets/img/how-to-pay/fee.png") center -5px / 100% 140vh no-repeat;
+}
+

@@ -7,9 +7,13 @@ import * as $ from 'jquery';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-
+  isCollapsed = true;
   constructor() { }
   ngOnInit() {
+  }
+  toggleMenu() 
+  {
+    this.isCollapsed = !this.isCollapsed;
   }
 
 }

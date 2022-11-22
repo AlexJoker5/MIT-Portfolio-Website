@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { RouterModule } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -22,6 +23,11 @@ import { EnglishComponent } from './program/bachelor/english/english.component';
 import { MusicComponent } from './program/bachelor/music/music.component';
 import { ReligionComponent } from './program/bachelor/religion/religion.component';
 import { SocialStudiesComponent } from './program/bachelor/social-studies/social-studies.component';
+import { AdmissionRequirementComponent } from './admission-requirement/admission-requirement.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { DeveloperTeamComponent } from './developer-team/developer-team.component';
+import { NotAvailableComponent } from './not-available/not-available.component';
+import { LapComponent } from './program/lap/lap.component';
 
 @NgModule({
   declarations: [
@@ -40,12 +46,18 @@ import { SocialStudiesComponent } from './program/bachelor/social-studies/social
     EnglishComponent,
     MusicComponent,
     ReligionComponent,
-    SocialStudiesComponent
+    SocialStudiesComponent,
+    AdmissionRequirementComponent,
+    ContactUsComponent,
+    DeveloperTeamComponent,
+    NotAvailableComponent,
+    LapComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
+    RouterModule,
     FontAwesomeModule
   ],
   providers: [],
