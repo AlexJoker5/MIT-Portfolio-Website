@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap');
 /*general*/
 .student-life{
     font-family: 'Barlow', sans-serif;
@@ -14,10 +15,13 @@
 .pt{
     padding: 50px 0;
 }
+.ff-c{
+    font-family: 'Barlow Condensed', sans-serif;
+}
 /*--------------------------------------*/
 /*banner*/
 .banner{
-    margin-top: 73px;
+    margin-top: 70px;
     background: linear-gradient(rgba(255, 255, 255, 0.2),rgba(0, 0, 0, 0.5)),url("src/assets/img/student-life/mit_background.JPG") no-repeat bottom / cover;
     min-height: 90vh;
     display: flex;
@@ -54,7 +58,7 @@
     color: rgb(56 182 255);
 }
 .banner-p{
-    font-size:15px ;
+    font-size:20px ;
     font-weight: 300;
     text-align: center;
 }
@@ -64,7 +68,7 @@
 }
 .read-link{
     
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 700;
     color: rgb(56 182 255);
     text-decoration: none;
@@ -91,8 +95,8 @@
 .card-3{
     background: rgb(56 182 255);
     padding: 0;
-    width: 30%;
-    height: 30%;
+    width: 300px;
+    height: 250px;
     border-radius: 10px;
 }
 .content-4{
@@ -128,7 +132,8 @@
 }
 /*--------------------------------------------------*/
 .footer{
-    margin-top: -16px;
-    background: url("src/assets/img/student-life/41.png") no-repeat bottom /cover;
-    min-height: 100vh;
+    margin-top: -20px;
+    width: auto;
+    height: 80vh;
+    background: url("src/assets/img/student-life/41.png") center -200px / 100% 140vh no-repeat;
 }

@@ -106,14 +106,14 @@ section {
 #showcase {
     width: auto;
     height: 90vh;
-    background: url("src/assets/img/lap/bg.png") center -130px / 100% 140vh no-repeat;
+    background: url("src/assets/img/lap/lap-bg.png") center -130px / 100% 140vh no-repeat;
     margin-top: 4rem;
 }
 
 #bottomShowCase {
     width: auto;
     height: 90vh;
-    background: url("src/assets/img/lap/bt-bg.png") center -130px / 100% 140vh no-repeat;
+    background: url("src/assets/img/lap/lap-bt-bg.png") center -130px / 100% 140vh no-repeat;
 }
 
 #overlay {

@@ -94,29 +94,35 @@ td{
     border: 1px solid #38b6ff;
 }
 
-table tr:nth-child(even) td{
+.table1 {
+    border: 1px solid #38b6ff;
+    border-radius: 50px;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.table1 tr:nth-child(even) td{
     background-color: #38b6ff;
     color: #ffffff;
     border-style: solid;
-    border-width: 3px;
+    border-width: 2px;
     border-color: #ffffff;
 }
 
-table tr:nth-child(odd) td{
+.table1 tr:nth-child(odd) td{
     color: #38b6ff;
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
     border-color: #38b6ff;
 }
 
-table tr:last-child td{
+.table1 tr:last-child td{
     background-color: #ffffff;
     color: #38b6ff;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #38b6ff;
-    border-radius: 30px;
     font-weight: 700;
+    width: auto;
+    border: 1px solid #ffffff;
+    border-radius: 60px;
 }
 
 .half_blue{
@@ -180,6 +186,10 @@ table tr:last-child td{
 
 .table2{
     width: 100%;
+    border: 1px solid #38b6ff;
+    border-radius: 33px;
+    border-collapse: separate;
+    border-spacing: 0;
 }
 
 .table2 tr td {
@@ -187,13 +197,13 @@ table tr:last-child td{
 }
 
 .table2 tr:nth-child(1) td{
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-radius: 50px;
 }
 
 .table2 tr:last-child td:last-child{
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    width: auto;
+    border: 1px solid #ffffff;
+    border-radius: 80%;
 }
 
 .table2 tr:nth-child(odd) td{
@@ -211,6 +221,8 @@ table tr:last-child td{
     border-width: 1px;
     border-color: #38b6ff;
 }
+
+
 
 .td_h{
     height: 0;
