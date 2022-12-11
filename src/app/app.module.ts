@@ -28,6 +28,9 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { DeveloperTeamComponent } from './developer-team/developer-team.component';
 import { NotAvailableComponent } from './not-available/not-available.component';
 import { LapComponent } from './program/lap/lap.component';
+import { PublicEventsComponent } from './public-events/public-events.component';
+import { MeetOurStaffComponent } from './meet-our-staff/meet-our-staff.component';
+import { ReferenceResourceComponent } from './reference-resource/reference-resource.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +54,10 @@ import { LapComponent } from './program/lap/lap.component';
     ContactUsComponent,
     DeveloperTeamComponent,
     NotAvailableComponent,
-    LapComponent
+    LapComponent,
+    PublicEventsComponent,
+    MeetOurStaffComponent,
+    ReferenceResourceComponent
   ],
   imports: [
     BrowserModule,

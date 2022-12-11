@@ -16,7 +16,7 @@ export class BachelorComponent implements OnInit {
 
   @ViewChild('container', { read: ViewContainerRef, static: true})
   container!: ViewContainerRef
-
+  faChevronDown = faChevronDown;
   majorComponent = BusinessComponent;
 
   constructor() { }

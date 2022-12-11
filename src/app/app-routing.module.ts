@@ -11,10 +11,13 @@ import { FeeComponent } from './fee/fee.component';
 import { HomeComponent } from './home/home.component';
 import { HowToApplyComponent } from './how-to-apply/how-to-apply.component';
 import { HowToPayComponent } from './how-to-pay/how-to-pay.component';
+import { MeetOurStaffComponent } from './meet-our-staff/meet-our-staff.component';
 import { NotAvailableComponent } from './not-available/not-available.component';
 import { BachelorComponent } from './program/bachelor/bachelor.component';
 import { LapComponent } from './program/lap/lap.component';
 import { ProgramComponent } from './program/program.component';
+import { PublicEventsComponent } from './public-events/public-events.component';
+import { ReferenceResourceComponent } from './reference-resource/reference-resource.component';
 import { StudentLifeComponent } from './student-life/student-life.component';
 
 const routes: Routes = [
@@ -39,6 +42,10 @@ const routes: Routes = [
     component:ContactUsComponent
   },
   {
+    path:'about-mit/reference-resource',
+    component:ReferenceResourceComponent
+  },
+  {
     path:'student-life',
     component:StudentLifeComponent
   },
@@ -49,6 +56,10 @@ const routes: Routes = [
   {
     path:'department',
     component:DepartmentComponent
+  },
+  {
+    path:'about-mit/meet-our-staff',
+    component:MeetOurStaffComponent
   },
   {
     path:'program/lap',
@@ -77,6 +88,10 @@ const routes: Routes = [
   {
     path: 'not-available',
     component: NotAvailableComponent
+  },
+  {
+    path: 'about-mit/public-events',
+    component: PublicEventsComponent
   }
 ];
 
